@@ -31,11 +31,9 @@ classificador.fit(x_train,train.Insult)
 # classifica as frases dos arquivos de test
 predictions = classificador.predict(x_test)
 
-
-for k in predictions:
-    print k
-
-
+# gravando os resultados no arquivo submission.csv
+submission = pd.DataFrame({'id': test.id, 'insult': predictions})
+submission.to_csv('submission.csv', index=False)
 
 
 
