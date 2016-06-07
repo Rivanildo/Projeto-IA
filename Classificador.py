@@ -19,3 +19,6 @@ x_train = vectorizer.fit_transform(train.Comment)
 x_test = vectorizer.fit_transform(test.Comment)
 
 
+
+
+
