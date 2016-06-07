@@ -16,7 +16,28 @@ vectorizer = CountVectorizer()
 # Learn the vocabulary dictionary and return term-document matrix.
 # treinando o algoritmo com a funcao fit_transform
 x_train = vectorizer.fit_transform(train.Comment)
-x_test = vectorizer.fit_transform(test.Comment)
+x_test = vectorizer.transform(test.Comment)
+
+
+# classificador do pacote naive bayes
+classificador = MultinomialNB()
+
+
+# Treinar o naive bayes
+# treina o classificador passando a matriz de treino e os rotulos (insultos)
+classificador.fit(x_train,train.Insult)
+
+
+# classifica as frases dos arquivos de test
+predictions = classificador.predict(x_test)
+
+
+for k in predictions:
+    print k
+
+
+
+
 
 
 
