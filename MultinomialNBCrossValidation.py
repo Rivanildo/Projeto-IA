@@ -22,7 +22,7 @@ classificador = MultinomialNB()
 
 
 # Validacao cruzada
-cross_val_score(classificador, x_train, train.Insult, cv = 10)
+scores = cross_val_score(classificador, x_train, train.Insult, cv = 10, scoring="roc_auc")
 
 # Treinar o naive bayes
 model = classificador.fit(x_train, list(train.Insult))
@@ -31,6 +31,6 @@ model = classificador.fit(x_train, list(train.Insult))
 predictions = model.predict_proba(x_test)[:,1]
 
 
-# gravando os resultados no arquivo submission.csv
+# gravando os resultados no arquivo
 submission = pd.DataFrame({'id': test.id, 'insult': predictions})
-submission.to_csv('submission.csv', index=False)
+submission.to_csv('resultsMultinomialCrossValidation.csv', index=False)

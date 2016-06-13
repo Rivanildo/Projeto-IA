@@ -27,6 +27,6 @@ classificador.fit(x_train.toarray(), train.Insult)
 predictions = classificador.predict(x_test.toarray())
 
 
-# gravando os resultados no arquivo submission.csv
+# gravando os resultados no arquivo
 submission = pd.DataFrame({'id': test.id, 'insult': predictions})
-submission.to_csv('submission.csv', index=False)
+submission.to_csv('resultsGaussianNB.csv', index=False)
