@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-
 # Leitura dos arquivos csv
 train = pd.read_csv("train.csv")
 test = pd.read_csv("test.csv")
@@ -25,7 +24,6 @@ classificador.fit(x_train,train.Insult)
 
 # classifica as frases dos arquivos de test
 predictions = classificador.predict(x_test)
-
 
 # gravando os resultados no arquivo
 submission = pd.DataFrame({'id': test.id, 'insult': predictions})

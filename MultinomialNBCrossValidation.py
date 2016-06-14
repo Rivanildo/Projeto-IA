@@ -21,12 +21,14 @@ x_test = vectorizer.transform(test.Comment)
 # classificador do pacote naive bayes
 classificador = MultinomialNB(alpha=1.0)
 
+# Criando um array com varios possiveis valores de alpha
 alphas = np.logspace(-4, -.5, 30)
 
-
+# Fazendo validacao cruzada para cada valor de alpha no array
 for alpha in alphas:
+
     classificador.alpha = alpha
-    this_scores = cross_val_score(classificador, x_train, train.Insult, n_jobs=1)
+    this_scores = cross_val_score(classificador, x_train, train.Insult, cv=None, n_jobs=1)
 
     model = classificador.fit(x_train, list(train.Insult))
 

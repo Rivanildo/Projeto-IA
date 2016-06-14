@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="76d26b3a-4684-4b57-a5bc-47371fa6d7f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassificadorGaussianNB.py" afterPath="$PROJECT_DIR$/ClassificadorGaussianNB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassificadorMultinomialNB.py" afterPath="$PROJECT_DIR$/ClassificadorMultinomialNB.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MultinomialNBCrossValidation.py" afterPath="$PROJECT_DIR$/MultinomialNBCrossValidation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resultsMultinomialCrossValidation.csv" afterPath="$PROJECT_DIR$/resultsMultinomialCrossValidation.csv" />
     </list>
     <ignored path="Projeto-IA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassificadorGaussianNB.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClassificadorGaussianNB.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClassificadorGaussianNB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.38582677">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/ClassificadorMultinomialNB.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -59,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultinomialNBCrossValidation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultinomialNBCrossValidation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MultinomialNBCrossValidation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42519686">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -140,11 +141,11 @@
         <option value="$PROJECT_DIR$/Classificador.py" />
         <option value="$PROJECT_DIR$/ClassificadorComValidacaoCruzada.py" />
         <option value="$PROJECT_DIR$/submission2.csv" />
-        <option value="$PROJECT_DIR$/ClassificadorGaussianNB.py" />
-        <option value="$PROJECT_DIR$/ClassificadorMultinomialNB.py" />
         <option value="$PROJECT_DIR$/resultsGaussianNB.csv" />
         <option value="$PROJECT_DIR$/resultsMultinomialNB.csv" />
         <option value="$PROJECT_DIR$/resultsMultinomialCrossValidation.csv" />
+        <option value="$PROJECT_DIR$/ClassificadorGaussianNB.py" />
+        <option value="$PROJECT_DIR$/ClassificadorMultinomialNB.py" />
         <option value="$PROJECT_DIR$/MultinomialNBCrossValidation.py" />
       </list>
     </option>
@@ -692,26 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassificadorMultinomialNB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassificadorGaussianNB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resultsMultinomialCrossValidation.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -722,8 +703,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MultinomialNBCrossValidation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42519686">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassificadorMultinomialNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassificadorGaussianNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38582677">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

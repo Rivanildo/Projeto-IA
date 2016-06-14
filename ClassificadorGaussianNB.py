@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import GaussianNB
 
-
 # Leitura dos arquivos csv
 train = pd.read_csv("train.csv")
 test = pd.read_csv("test.csv")
